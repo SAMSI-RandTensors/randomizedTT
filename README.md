@@ -5,13 +5,12 @@ This repository contains MATLAB codes for randomized TT (tensor train) rounding 
 
 # Reference
 
-If you use this code, please cite the following [paper](https://arxiv.org)
+If you use this code, please cite the following [paper](https://arxiv.org/abs/2110.04393)
 
-  @unpublished{randomizedTT,
+  @misc{randomizedTT,
     title={Randomized Algorithms for Rounding in the Tensor Train Format},
     author={Al Daas, H. and Ballard, G. and Cazeaux, P. and Hallman, E. and Pasha, M. and Miedlar, A. and Reid, T.W. and Saibaba, A.K.},
-    year={2021}
-  }
+    year={2021}, eprint={2110.04393}, archivePrefix={arXiv}, primaryClass={math.NA}}
 
 
 # Acknowledgements
