@@ -185,7 +185,7 @@ hold off;
 legend('Total speedup', 'TT-Sum + Round', 'location', 'northwest')
 
 set(gca, 'XScale', 'log')
-xlabel('Number of parameter samples (log scale)', 'FontSize', 18)
+xlabel('Number of parameter samples I_2 = \ldots = I_N (log scale)', 'FontSize', 18)
 ylabel('Speedup', 'FontSize', 18)
 xticks(N);
 set(gca,'FontSize',16)
@@ -194,7 +194,7 @@ exportgraphics(f, 'figures/TTGMRES_Speedup.eps')
 f = figure(3);
 clf();
 f.Position(1:2) = [525,525];
-f.Position(3:4) = [525, 350];
+f.Position(3:4) = [525, 355];
 ranks = max(ranksrand{1}(1:end-1,:),[],2);
 p1 = plot(ranks, 'bo','markersize',10,'linewidth',2);
 hold on

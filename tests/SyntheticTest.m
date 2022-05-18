@@ -145,6 +145,7 @@ hold off
 title("Observed speedup relative to TT-rounding")
 xlabel('Maximum Target Rank', 'FontSize', 18)
 ylabel('Speedup', 'FontSize', 18)
+legend('TT-Rounding','Orth-then-Rand', 'Rand-then-Orth','Two-Sided-Rand')
 set(gca,'FontSize',16)
 
 
